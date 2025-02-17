@@ -1,0 +1,181 @@
+.h-screen-center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-form {
+    width: 100%;
+    max-width: 300px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: -50px;
+
+}
+
+
+.lock-icons i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.form {
+    display: grid;
+    gap: 10px;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 55px;
+}
+
+.form-element input {
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 28px;
+}
+
+.form-element .input-container {
+    border: 1px solid black;
+    padding: 1px 2px;
+    border-radius: 3px;
+    display: flex;
+    width: 100%;
+
+    align-items: center;
+}
+
+.icons-password {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.form button {
+    padding: 9px 20px;
+    width: fit-content;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(57, 141, 96);
+    color: white;
+    letter-spacing: 1px;
+    margin: 7px auto;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.form button:hover {
+    background-color: #2fe794;
+    transform: scale(1.1);
+}
+
+.check {
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.user-name {
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.user-email {
+    margin: 0;
+}
+
+/* .logout-btn {
+    border: 2px solid transparent;
+    background-color: rgb(58, 18, 46);
+    color: white;
+    font-weight: 600;
+    padding: 3px 12px;
+    letter-spacing: 0.5px;
+    width: fit-content;
+    margin-left: auto;
+    display: block;
+    cursor: pointer;
+} */
+
+/* Navbar Brand */
+
+
+.navbarComp {
+    background-color: rgb(38, 224, 193);
+    margin-bottom: 20px;
+}
+
+.nav-item1 {
+    margin-right: 20px
+}
+
+.nav-item2 {
+    margin-left: 20px
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    font-size: 20px;
+    padding: 8px 16px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #727d0b;
+}
+
+/* Active Link */
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid #05590f;
+}
+
+.fa-solid.fa-magnifying-glass {
+    color: #05590f;
+    margin-right: 20px;
+}
+
+.icons {
+    margin-right: 16px;
+}
+
+.logout {
+    height: 45px;
+    width: 132px;
+    border-radius: 8px;
+    border-width: 0px;
+    color: white;
+    background-color: #42935f;
+}
+
+.card-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    color: #05590f;
+}
+
+.name {
+    color: #0e9866;
+}

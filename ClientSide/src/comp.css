@@ -1,0 +1,211 @@
+/* CSS for Dashboard & Products Components */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* CSS for user Component */
+
+.username {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user-details {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#wishlistbutton {
+    background-color: rgb(244, 238, 238);
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    width: 30px;
+}
+
+
+#wishlistrow {
+    width: 20px;
+    height: 20px
+}
+
+.fa-solid.fa-heart {
+    color: rgb(43, 215, 120);
+    margin-left: 0px;
+}
+
+.fa-regular.fa-heart {
+    color: #453b3bef;
+    margin-left: 0px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* CSS for search container */
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.result-list {
+    margin-top: 20px;
+}
+
+.product-data {
+    list-style-type: none;
+}
+
+.product-data li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.product-data li .text p {
+    margin: 0;
+}
+
+/* wishlist Component */
+
+.wishlist-div ul {
+    list-style-type: none;
+}
+
+.wishlist-div ul li>div {
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.w-pname {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    margin-right: 10px;
+}
+
+.w-pdes {
+    font-size: 16px;
+    color: #777;
+    margin-right: 10px;
+}
+
+.w-pcost {
+    font-size: 14px;
+    color: #999;
+    margin-right: 10px;
+}
+
+.w-pbutton {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.fa-solid.fa-truck-fast {
+    color: rgb(5, 131, 61);
+    margin-left: 0px;
+}
+
+.fa-truck-fast:hover {
+    /* background-color: #44e79e; */
+    transform: scale(1.2);
+}
+
+.add-image {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    object-fit: contain;
+    margin: 10px 0px;
+}
+
+/* .product-image {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+} */
+
+/* .product-image {
+    height: 50%;
+    width: 100px;
+} */
+
+/* .fa-solid.fa-heart {
+    background-color: #777;
+} */
+
+.add-product {
+    border: 2px solid grey;
+    box-shadow: 10px 10px 5px grey;
+}
